@@ -5,6 +5,7 @@ import nltk
 import spacy
 import string
 import pickle
+nltk.download('stopwords')
 from nltk.corpus import stopwords, wordnet
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
